@@ -36,8 +36,8 @@ def buy(request, pk):
             },
         ],
         mode='payment',
-        success_url='http://127.0.0.1:8000/',
-        cancel_url='http://127.0.0.1:8000/',
+        success_url='https://web-production-2697.up.railway.app/success',
+        cancel_url='https://web-production-2697.up.railway.app/cancel',
     )
 
     return JsonResponse({
