@@ -36,8 +36,8 @@ def buy(request, pk):
             },
         ],
         mode='payment',
-        success_url='https://web-production-2697.up.railway.app/success',
-        cancel_url='https://web-production-2697.up.railway.app/cancel',
+        success_url='https://web-production-2697.up.railway.app/success_page',
+        cancel_url='https://web-production-2697.up.railway.app/cancel_page',
     )
 
     return JsonResponse({
